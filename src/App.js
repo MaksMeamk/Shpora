@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navigation from './Components/Navigation';
 import MainPage from './Components/MainPage';
+import { HomeOutlined } from '@ant-design/icons'
 
 function App() {
   return (
@@ -10,7 +11,17 @@ function App() {
 
       <BrowserRouter>
         <header className="header">
-          <img src={logo} className="logo" alt="logo" />
+          <div className=''>
+            <HomeOutlined />
+          </div>
+          <div className=''>
+            Основная теория по библиотеке React
+          </div>
+          <div className=''>
+            <img src={logo} className="logo" alt="logo" />
+          </div>
+
+
         </header>
         <main className='main'>
           <div className='main__navigation'>

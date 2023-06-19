@@ -28,6 +28,7 @@ li {
 a,
 a:visited {
   text-decoration: none;
+  all: initial;   
 }
 
 a:hover {
@@ -55,19 +56,17 @@ body {
 
 html {
   font-size: 16px;
-  /* по умолчанию */
+  
 }
 
 body {
-  line-height: 1;
-  /* color: #000; */
-  /* font-family:""; */
-  overflow-x: hidden;
+  line-height: 1;  
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   background-color: #333;
 }
 
 .wrapper {
   min-height: 100%;
-  padding: 30px;
+  overflow: hidden;
+  padding: 20px;
 }
