@@ -1,28 +1,41 @@
-.main {
-  display: flex;
-  gap: 15px;
-}
-
 .header {
+  height: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;  
+  font-size: 34px;
+  min-width: 800px; 
 }
 
-.logo {
-  height: 50px;
-  pointer-events: none;
-  animation-name: logo-spin;
-  animation-iteration-count: infinite;
-  animation-duration: 20s;
-  animation-timing-function: linear;
+.logo__item {
+  width: 90px;  
+  animation: logo-spin 20s infinite linear;
 }
-
 
 @keyframes logo-spin {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
+
+.footer__item {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(144, 144, 144);
+  line-height: 50px;
+}
+
+.main {    
+  display: flex;
+  gap: 30px;
+}
+
+
+
+
+
+
+
