@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Navigation from './Components/Navigation';
 import MainPage from './Components/MainPage';
 import { HomeOutlined } from '@ant-design/icons'
+import Components from './Components/Components';
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
           <div className='main__content'>
             <Routes>
               <Route path='/' element={<MainPage />}></Route>
-              <Route path='/components' element=''></Route>
+              <Route path='/components' element={<Components />}></Route>
               <Route path='/props' element=''></Route>
               <Route path='/state' element=''></Route>
               <Route path='/lifecycle' element=''></Route>

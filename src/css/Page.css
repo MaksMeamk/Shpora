@@ -1,0 +1,19 @@
+.theme__title:not(:last-child), .theme__code:not(:last-child), .theme__text:not(:last-child) {
+    margin: 0px 0px 30px 0px;
+}
+.theme__title{
+font-size: 25px;
+font-weight: 700;
+text-align: center;
+}
+
+.theme__text {
+
+}
+.theme__code {
+    background: rgb(220, 220, 220);
+    color: black;
+    border-radius: 20px;
+    padding:10px 10px 10px 50px;
+}
+
