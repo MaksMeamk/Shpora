@@ -6,11 +6,7 @@ font-size: 25px;
 font-weight: 700;
 text-align: center;
 }
-
-.theme__text {
-
-}
-.theme__code {
+.code__item {
     background: rgb(220, 220, 220);
     color: black;
     border-radius: 20px;

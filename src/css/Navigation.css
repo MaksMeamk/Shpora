@@ -1,0 +1,27 @@
+.menu__title {
+    color: rgb(179, 179, 179);
+    padding-left: 15px;
+}
+.menu__item a{
+padding-left: 15px;
+transition: all 0.7s ease;
+}
+
+.menu__item a:focus {
+padding-left: 30px;
+display: inline-block;
+width: 100%;
+border-radius: 10px;
+background-color: rgba(172, 172, 172, 0.8);
+transition: all 0.7s ease;
+}
+.menu__item a:hover {
+    padding-left: 30px;
+    display: inline-block;
+    width: 100%;
+    font-size: 110%;
+    font-weight: 700;
+    background-color: rgba(172, 172, 172, 0.8);
+    border-radius: 10px;
+    transition: all 0.7s ease;
+}

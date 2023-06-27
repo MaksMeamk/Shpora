@@ -1,7 +1,4 @@
 
-.image__item {
-    object-fit: contain;
-    width: 100%;
-    min-width: 615px; 
-    max-width: 1620px;  
+.image__item {    
+    max-width: 100vh;  
 }
