@@ -1,12 +1,12 @@
 import React from "react";
-import '../css/MainPage.css'
+import '../css/Page.css'
 import road from '../img/road.png'
 
 
 const MainPage = () => {
     return (
-        <div className="image">
-            <img src={road} alt='road' className="image__item" />
+        <div className="theme">
+            <img src={road} alt='road' className="theme__image" />
         </div>
     )
 }

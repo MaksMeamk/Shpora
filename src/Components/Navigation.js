@@ -15,7 +15,6 @@ const Navigation = () => {
             </div>
             <div className='menu__title'>Темы:</div>
             <ul className='menu__list'>
-
                 <li className='menu__item'><Link to='/components'>Components</Link></li>
                 <li className='menu__item'><Link to='/props'>Props</Link></li>
                 <li className='menu__item'><Link to='/state'>State</Link></li>

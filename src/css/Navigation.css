@@ -1,10 +1,13 @@
 .menu__title {
     color: rgb(179, 179, 179);
-    padding-left: 15px;
+    padding: 15px;
 }
 .menu__item a{
+display: inline-block;
 padding-left: 15px;
 transition: all 0.7s ease;
+width: 185px;
+border-radius: 10px;
 }
 
 .menu__item a:focus {
@@ -24,4 +27,13 @@ transition: all 0.7s ease;
     background-color: rgba(172, 172, 172, 0.8);
     border-radius: 10px;
     transition: all 0.7s ease;
+}
+
+.menu__home{
+    text-align: center;
+    height: 70px;
+}
+
+.menu__home_image {
+    font-size: 30pt;
 }

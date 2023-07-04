@@ -1,8 +1,12 @@
 .header {
-  height: 100px;
-  display: flex;
-  justify-content: space-between;  
+  height: 70px;
+  display: flex;  
   font-size: 34px;
+  
+}
+.header-title{
+  flex: 1 0 auto;
+  text-align: center;
   
 }
 
@@ -28,18 +32,33 @@
   line-height: 50px;
 }
 
-
-
-
-
 [class*="__container"] {
-  max-width: 1050px;
+  max-width: 1500px;
   margin: 0px auto;
   padding: 0px 15px;
+  min-height: 100%;
 }
+
 .block__items {
   display: flex;
+  min-height: 96vh;
 }
+
+.block__item{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.main{
+  flex: 1 1 auto;  
+}
+
+.block__item_navigation {
+  flex: 0 0 185px;
+}
+
+
 
 
 

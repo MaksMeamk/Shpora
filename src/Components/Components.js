@@ -37,10 +37,4 @@ const Components = () => {
 }
 export default Components;
 
-class ClassComponent extends React.Component {
-    render() {
-        return (
-            <h1>Привет, мир!</h1>
-        )
-    }
-}
+

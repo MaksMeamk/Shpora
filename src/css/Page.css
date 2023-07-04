@@ -12,4 +12,7 @@ text-align: center;
     border-radius: 20px;
     padding:10px 10px 10px 50px;
 }
+.theme__image{
+    max-width: 100vh;
+}
 
