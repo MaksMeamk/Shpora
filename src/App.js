@@ -3,9 +3,22 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navigation from './Components/Navigation';
 import MainPage from './Components/MainPage';
-
 import Components from './Components/Components';
-// import { State, Props, LifeCycle, Events, Key, Refs, AsyncRequests, VirtualDOM, Fragment, ReactMemo, UseEffect, Router, Context, Form } from './Components/State';
+import State from './Components/State';
+import Props from './Components/Props';
+import LifeCycle from './Components/LifeCycle';
+import Events from './Components/Events';
+import Key from './Components/Key';
+import Refs from './Components/Refs';
+import AsyncRequests from './Components/AsyncRequests';
+import VirtualDOM from './Components/VirtualDOM';
+import Fragment from './Components/Fragment';
+import ReactMemo from './Components/ReactMemo';
+import UseEffect from './Components/UseEffect';
+import Router from './Components/Router';
+import Context from './Components/Context';
+import Form from './Components/Form';
+
 
 
 function App() {

@@ -5,9 +5,9 @@ const LifeCycle = () => {
         <div className='theme'>
             <div className='theme__title'></div>
             <div className='theme__text text'>
-                <p className='text-item'></p>
-                <p className='text-item'></p>
-                <p className='text-item'></p>
+                <p className='text__item'></p>
+                <p className='text__item'></p>
+                <p className='text__item'></p>
             </div>
             <div className=' theme__code code code'>
                 <p className='code__title'></p>

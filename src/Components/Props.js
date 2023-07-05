@@ -7,9 +7,9 @@ const Props = () => {
         <div className='theme'>
             <div className='theme__title'>Props</div>
             <div className='theme__text text'>
-                <p className='text-item'>Главное, что нужно запомнить при работе с пропсами: их нельзя изменять!!!</p>
-                <p className='text-item'>Props представляют собой объект, содержащие свойства.</p>
-                <p className='text-item'>Пропсы —  механизм передачи данных в компоненты.</p>
+                <p className='text__item'>Главное, что нужно запомнить при работе с пропсами: их нельзя изменять!!!</p>
+                <p className='text__item'>Props представляют собой объект, содержащие свойства.</p>
+                <p className='text__item'>Пропсы —  механизм передачи данных в компоненты.</p>
             </div>
             <div className='theme__code code' >
                 <p className='code__title'>Обратиться в функциональной компоненте можно через props.имя-свойства:</p>
@@ -46,7 +46,7 @@ const Props = () => {
                 </pre>
             </div>
             <div className='theme__text text'>
-                <p className='text-item'>Когда React видит элемент, представляющий пользовательский компонент, он передаёт JSX-атрибуты этому компоненту в виде единственного объекта. Мы называем этот объект «props».</p>
+                <p className='text__item'>Когда React видит элемент, представляющий пользовательский компонент, он передаёт JSX-атрибуты этому компоненту в виде единственного объекта. Мы называем этот объект «props».</p>
             </div>
             <div className=' theme__code code code'>
                 <p className='code__title'>Например, этот код отображает «Привет, Memak» на странице:</p>
@@ -64,14 +64,14 @@ ReactDOM.render(
                 </pre>
             </div>
             <div className='theme__text text'>
-                <p className='text-item'>
+                <p className='text__item'>
                     Давайте посмотрим, что происходит в этом примере:
                 </p>
-                <p className='text-item'>{`1. Мы вызываем ReactDOM.render() с элементом <FuncComponent name="Memak" />`}
+                <p className='text__item'>{`1. Мы вызываем ReactDOM.render() с элементом <FuncComponent name="Memak" />`}
                 </p>
-                <p className='text-item'>{`2. React вызывает компонент FuncComponent с объектом {name: 'Memak'} как props.`}</p>
-                <p className='text-item'>{`3. Наш компонент FuncComponent возвращает элемент <h1>Hello, Memak</h1> в качестве результата.`}</p>
-                <p className='text-item'>{`4. React DOM эффективно обновляет DOM, чтобы соответствовать <h1>Hello, Sara</h1>.`}</p>
+                <p className='text__item'>{`2. React вызывает компонент FuncComponent с объектом {name: 'Memak'} как props.`}</p>
+                <p className='text__item'>{`3. Наш компонент FuncComponent возвращает элемент <h1>Hello, Memak</h1> в качестве результата.`}</p>
+                <p className='text__item'>{`4. React DOM эффективно обновляет DOM, чтобы соответствовать <h1>Hello, Sara</h1>.`}</p>
             </div>
 
 

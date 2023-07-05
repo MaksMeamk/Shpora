@@ -15,4 +15,11 @@ text-align: center;
 .theme__image{
     max-width: 100vh;
 }
-
+.text__item_false{   
+    text-decoration: line-through;
+}
+.text__item_title{
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+}
