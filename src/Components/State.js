@@ -1,4 +1,5 @@
 import React from 'react'
+import CounterClass from './CounterClass'
 
 const State = () => {
     return (
@@ -67,6 +68,7 @@ const State = () => {
                     </code>
                 </pre>
             </div>
+            <CounterClass />
         </div>
 
     )
