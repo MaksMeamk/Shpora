@@ -1,5 +1,6 @@
 import React from 'react'
 import CounterClass from './CounterClass'
+import CounterFunc from './CounterFunc'
 
 const State = () => {
     return (
@@ -68,9 +69,13 @@ const State = () => {
                     </code>
                 </pre>
             </div>
-            <CounterClass />
+            <div className='theme__example'>
+                <p className='theme__example_title'>Пример для классовой компоненты:</p>
+                <CounterClass />
+                <p className='theme__example_title'>Пример для функциональной компоненты:</p>
+                <CounterFunc />
+            </div>
         </div>
-
     )
 }
 

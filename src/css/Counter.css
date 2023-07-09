@@ -1,0 +1,30 @@
+.counter {
+    display: flex;
+    font-size: 30px;
+    gap: 15px;
+}
+
+.counter__minus, .counter__plus {
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 30%;
+    
+}
+
+.counter__count {
+    padding: 20px;
+}
+.counter__code {
+    flex: 1 1 auto;
+    font-size: 20px;
+    background: rgb(220, 220, 220);
+    color: black;
+    border-radius: 20px;
+    padding: 10px 10px 10px 50px;
+}
+.counter__buttons{
+    display: flex;    
+    align-items: center;
+    flex: 0 0 230px;
+    justify-content: space-between;
+}

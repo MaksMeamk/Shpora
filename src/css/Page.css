@@ -7,6 +7,7 @@ font-weight: 700;
 text-align: center;
 }
 .code__item {
+    overflow: scroll;
     background: rgb(220, 220, 220);
     color: black;
     border-radius: 20px;
@@ -18,8 +19,15 @@ text-align: center;
 .text__item_false{   
     text-decoration: line-through;
 }
-.text__item_title{
+.text__item_title, .theme__example_title{
     font-size: 23px;
     font-weight: 600;
     text-align: center;
 }
+.theme__example{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+

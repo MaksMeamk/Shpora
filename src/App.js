@@ -65,13 +65,10 @@ function App() {
                 <footer className='footer'>
                   <div className='footer__item'>Create app in 2023</div>
                 </footer></div>
-
             </BrowserRouter>
           </div>
         </div>
       </div>
-
-
     </div >
   );
 }
