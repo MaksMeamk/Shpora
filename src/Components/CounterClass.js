@@ -22,7 +22,7 @@ class CounterClass extends React.Component {
                     <button className='counter__plus' onClick={this.plus}>+</button>
                 </div>
                 <div className="counter__code">
-                    <pre>
+                    <pre className='counter__code_text'>
                         <code>{`class CounterClass extends React.Component {
     constructor(props) {
         super(props);

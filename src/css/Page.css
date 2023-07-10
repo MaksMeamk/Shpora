@@ -6,8 +6,8 @@ font-size: 25px;
 font-weight: 700;
 text-align: center;
 }
-.code__item {
-    overflow: scroll;
+.code__item {    
+    white-space: pre-wrap;
     background: rgb(220, 220, 220);
     color: black;
     border-radius: 20px;
@@ -29,5 +29,6 @@ text-align: center;
     flex-direction: column;
     row-gap: 20px;
 }
+
 
 

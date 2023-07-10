@@ -1,11 +1,11 @@
 .header {
-  height: 70px;
+  /* height: 70px; */
   display: flex;  
   font-size: 34px;
   
 }
 .header-title{
-  flex: 1 0 auto;
+  flex: 1 1 auto;
   text-align: center;
   
 }

@@ -17,7 +17,7 @@ const CounterFunc = () => {
                 <button className="counter__plus" onClick={plus}>+</button>
             </div>
             <div className="counter__code">
-                <pre>
+                <pre className='counter__code_text'>
                     <code>{`const CounterFunc = () => {
     const [count, setCount] = useState(0)
     const minus = () => {

@@ -15,12 +15,16 @@
     padding: 20px;
 }
 .counter__code {
+    
     flex: 1 1 auto;
     font-size: 20px;
     background: rgb(220, 220, 220);
     color: black;
     border-radius: 20px;
     padding: 10px 10px 10px 50px;
+}
+.counter__code_text{
+    white-space: pre-wrap;
 }
 .counter__buttons{
     display: flex;    
