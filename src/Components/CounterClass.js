@@ -16,11 +16,7 @@ class CounterClass extends React.Component {
     render() {
         return (
             <div className='counter'>
-                <div className='counter__buttons'>
-                    <button className='counter__minus' onClick={this.minus}>-</button>
-                    <div className='counter__count'>{this.state.count}</div>
-                    <button className='counter__plus' onClick={this.plus}>+</button>
-                </div>
+
                 <div className="counter__code">
                     <pre className='counter__code_text'>
                         <code>{`class CounterClass extends React.Component {
@@ -45,6 +41,11 @@ class CounterClass extends React.Component {
     }
 }`}</code>
                     </pre>
+                </div>
+                <div className='counter__buttons'>
+                    <button className='counter__minus' onClick={this.minus}>-</button>
+                    <div className='counter__count'>{this.state.count}</div>
+                    <button className='counter__plus' onClick={this.plus}>+</button>
                 </div>
 
             </div>

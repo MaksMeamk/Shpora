@@ -31,6 +31,17 @@ const Components = () => {
 }`}</code>
                 </pre>
             </div>
+            <div className='theme__text text'>
+                <p className='text__item'>Компонента должна себя вести как чистая функция.</p>
+                <p className='text__item'>«Чистой» называется функция, которая:
+                    <ol type='1' className='text__item_list list'>
+                        <li className='list_item'>иммутабельна</li>
+                        <li className='list_item'>что либо возвращает</li>
+                        <li className='list_item'>без побочных эффектов</li>
+                        <li className='list_item'>идемпотентна(детерминированность) - свойство объекта или операции при повторном применении операции к объекту давать тот же результат, что и при первом.</li>
+                    </ol>
+                </p>
+            </div>
 
         </div >
     )

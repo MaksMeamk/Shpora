@@ -11,11 +11,7 @@ const CounterFunc = () => {
     }
     return (
         <div className="counter">
-            <div className="counter__buttons">
-                <button className="counter__minus" onClick={minus}>-</button>
-                <div className="counter__count">{count}</div>
-                <button className="counter__plus" onClick={plus}>+</button>
-            </div>
+
             <div className="counter__code">
                 <pre className='counter__code_text'>
                     <code>{`const CounterFunc = () => {
@@ -35,6 +31,11 @@ const CounterFunc = () => {
     )
 }`}</code>
                 </pre>
+            </div>
+            <div className="counter__buttons">
+                <button className="counter__minus" onClick={minus}>-</button>
+                <div className="counter__count">{count}</div>
+                <button className="counter__plus" onClick={plus}>+</button>
             </div>
         </div>
     )

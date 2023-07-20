@@ -19,7 +19,7 @@ text-align: center;
 .text__item_false{   
     text-decoration: line-through;
 }
-.text__item_title, .theme__example_title{
+.text__item_title{
     font-size: 23px;
     font-weight: 600;
     text-align: center;
@@ -33,6 +33,21 @@ text-align: center;
 .text__item_padding:not(:last-child){
     padding: 0 0 15px 0;
 }
-
+.list_item{
+    list-style: inherit;
+    list-style-position: outside;   
+}
+.list{
+    margin: 0 0 0 40px;
+}
+.theme__example_input{
+flex: 0 0 40px;
+font-size: 23px;
+}
+.theme__example_button {
+    flex: 0 0 40px;
+    font-size: 23px;
+    border-radius: 100px;
+}
 
 
