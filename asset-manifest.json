@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Shpora/static/css/main.4e53a992.css",
+    "main.js": "/Shpora/static/js/main.6c17d07a.js",
+    "static/js/787.a7c844fe.chunk.js": "/Shpora/static/js/787.a7c844fe.chunk.js",
+    "static/media/road.png": "/Shpora/static/media/road.49a54648a0cd31e53e74.png",
+    "static/media/logo.svg": "/Shpora/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Shpora/index.html",
+    "main.4e53a992.css.map": "/Shpora/static/css/main.4e53a992.css.map",
+    "main.6c17d07a.js.map": "/Shpora/static/js/main.6c17d07a.js.map",
+    "787.a7c844fe.chunk.js.map": "/Shpora/static/js/787.a7c844fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e53a992.css",
+    "static/js/main.6c17d07a.js"
+  ]
+}
